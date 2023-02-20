@@ -3,6 +3,7 @@ import HeroSection from '../HeroSection/HeroSection';
 import Navbar from '../Navbar/Navbar';
 import rightSide from '../../assets/vector4.png'
 import leftSide from '../../assets/vector5.png'
+import Service from '../Service/Service';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <HeroSection></HeroSection>
             <img src={leftSide} alt='mouse' className='absolute top-0'/>
             </div>
-
+            <Service></Service>
         </div>
     );
 };
