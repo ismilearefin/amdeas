@@ -3,7 +3,7 @@ import { GoPrimitiveDot } from 'react-icons/go';
 
 const Service = () => {
     return (
-        <div className='lg:px-[18.75em] lg:flex mt-[7.5em] mb-[11.93em]'>
+        <div className='max-w-[75.4375rem] mx-auto lg:flex mt-[7.5em] mb-[11.93em]'>
             <div className='w-[33.12em]'>
                 <div className='min-w-[33rem] min-h-[33rem] rounded-[1.5rem] bg-[#1C0C5B] flex'>
                     <div className='w-[4rem] min-h-[33rem] relative bg-[#7C5CFF]  rounded-tl-[1.5rem] rounded-bl-[1.5rem]'>

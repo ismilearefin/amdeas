@@ -5,6 +5,7 @@ import rightSide from '../../assets/vector4.png'
 import leftSide from '../../assets/vector5.png'
 import Service from '../Service/Service';
 import Process from '../Process/Process';
+import Why from '../Why/Why';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
             <Service></Service>
             <Process></Process>
+            <Why></Why>
         </div>
     );
 };
